@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tn.esprit.TestExamen</groupId>
+  <artifactId>ExamenGLTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <properties>
+  
+  <maven.comiler.target>1.8</maven.comiler.target>
+  <maven.comiler.source>1.8</maven.comiler.source> 
+  </properties>
+  
+<dependencies>
+
+<!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-ejb-client-bom -->
+
+	<dependency>
+		<groupId>org.wildfly</groupId>
+		<artifactId>wildfly-ejb-client-bom</artifactId>
+		<version>11.0.0.Final</version>
+		<type>pom</type>
+	</dependency>
+	
+<dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>4.3.10.Final</version>
+        </dependency>
+	
+	<dependency>
+      <groupId>tn.esprit.examen</groupId>
+    <artifactId>ExamenGL-ejb</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+  
+</project>
